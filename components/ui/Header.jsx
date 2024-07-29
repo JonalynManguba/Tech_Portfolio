@@ -1,9 +1,10 @@
-import ThemeToggler from '@/components/ui/ThemeToggler';
+import { ModeToggle } from "./mode-toggle";
+
 
 const Header = () => {
   return (
     <header>
-      <ThemeToggler/>
+      <ModeToggle/>
     </header>
   );
 };
